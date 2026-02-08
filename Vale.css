@@ -12,8 +12,8 @@ body {
 }
 
 .heart {
-  width: 100px;
-  height: 100px;
+  width: 600px;
+  height: 700px;
   background-color: #ff69b4;
   position: relative;
   transform: rotate(-45deg);
@@ -87,3 +87,4 @@ button {
 .image-slider img:nth-child(1) {
   opacity: 1;
 }
+
