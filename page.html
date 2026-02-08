@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Page</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+    }
+    .text {
+	color: white;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+  </style>
+</head>
+<body>
+<audio id="myAudio" autoplay loop style ="display: none;">
+    <source src="Love In The Dark [-hzFTJDJGkQ].mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="container">
+    <p class="text" id="text1">I'm so happy you said yes! 💖</p>
+    <p class="text" id="text2">You are the love of my life, and I'm so grateful to have you.</p>
+    <p class="text" id="text3">Forever and always, my dear Valentine 😊</p>
+	<p class="text" id="text4">All roads leads to you💖</p>
+	<p class="text" id="text5">Even those I took💖</p>
+	<p class="text" id="text6">To forget you</p>
+  </div>
+  <script>
+    let text1 = document.getElementById('text1');
+    let text2 = document.getElementById('text2');
+    let text3 = document.getElementById('text3');
+	let text4 = document.getElementById('text4');
+	let text5 = document.getElementById('text5');
+	let text6 = document.getElementById('text6');
+
+    setTimeout(() => {
+      text1.style.opacity = 1;
+    }, 1000);
+
+    setTimeout(() => {
+      text2.style.opacity = 1;
+    }, 3000);
+
+    setTimeout(() => {
+      text3.style.opacity = 1;
+    }, 5000);
+	
+	 setTimeout(() => {
+      text4.style.opacity = 1;
+    }, 7000);
+	
+	 setTimeout(() => {
+      text5.style.opacity = 1;
+    }, 11000);
+	
+	 setTimeout(() => {
+      text6.style.opacity = 1;
+    }, 13000);
+	
+	
+	document.body.style.backgroundImage = "url('wall.jpg')";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+  </script>
+  
+</body>
+</html>
