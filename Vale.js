@@ -21,3 +21,8 @@ window.addEventListener('load', () => {
   let audio = document.getElementById('myAudio');
   audio.play();
 });
+window.addEventListener('load', () => {
+  let audio = document.getElementById('myAudio');
+  audio.play();
+});
+
